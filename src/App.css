@@ -1,0 +1,260 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+ font-family: "Montserrat",sans-serif;
+}
+
+.Banner{
+  width: 100%;
+  height: 100vh;
+  background: url(./img/p1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.Banner_contain{
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+.container{
+  width: 1700px;
+  max-width: 1700px;
+  margin: 0 auto;
+}
+.Banner_text{
+  width: 500px;
+  margin-left: 1110;
+}
+.Banner_text h3{
+  font-size: 50px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+}
+.Banner_text h1{
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+  font-size: 80px;
+  line-height: 80px;
+  font-weight: 900;
+  margin-top: 20px;
+}
+.Banner_text p{
+  font-size: 25px;
+  font-weight: 400;
+  margin-top: 30px;
+}
+
+.navbar{
+  width: 100%;
+  height: 80px;
+  background-color: blue;
+}
+.navbar_text{
+  width: 1200px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+.logo{
+  width: 40px;
+}
+.logo h1{
+  color: #fff;
+  font-size: 30px;
+  display: inline-block;
+  font-size: bold;
+  margin-right: 220px;
+
+}
+
+.navbar ul{
+  width: 60%;
+  display: flex;
+  margin-left: 80%;
+  justify-content: flex-end;
+  list-style-type: none;
+}
+
+.navbar ul li a { 
+  text-decoration: none;
+  padding: 0 10px;
+  font-weight: 800;
+  color: #fff;
+  text-transform: uppercase;
+ }
+ .btn1{
+  margin-top: 30px;
+ }
+ .btnfirst{
+  text-decoration: none;
+  border: none;
+  outline: none;
+  background: rgb(255,60,71);
+  padding: 20px 40px;
+  font-weight: 700px;
+  border-radius: 30px;
+  font-size: 17px;
+ }
+.about_main{
+  padding: 80px 0;
+ }
+.about_tittle{
+  margin-left: 20px;
+
+}
+.about_tittle h1{
+  line-height: 40px;
+  margin-bottom: 15px;
+  font-size: 60px;
+  color: black;
+  font-weight: 700;
+  text-align: center;
+  
+}
+  
+ .row{
+  width: 100%;
+  display: flex;
+ }
+ .e16{
+  width: 100%;
+  margin-left: 25px;
+  margin-top: 10px;
+  display: block;
+  margin-top: 30px;
+  
+}
+.btn_shopp{
+  width: 100%;
+  margin-top: 20px;
+}
+.btn_shopp h4{
+  font-size: 30px;
+  text-align: center;
+  margin: 25px ,25px,25px,25px;
+}
+.btn_shopp h5{
+  font-size: 30px;
+  text-align: center;
+  margin-top: 15px;
+ margin: 25px ,25px,25px,25px;
+}
+ 
+
+ .about_main{
+  text-align: center;
+  font-size: 100px;
+  margin-bottom: 25px;
+ }
+ 
+
+ .about_main p{
+  font-size: 18px;
+  color: #252525;
+  font-weight: 400;
+ }
+
+ .about_img{
+  width: 100%;
+  overflow: hidden;
+  border-radius: 3px;
+
+}
+
+ .about_img img{
+  width: 100%;
+ }
+ .about_imgg{
+  width: 100%;
+  margin-bottom: 0%;
+ }
+ .about_imgg img{
+  height: 700px;
+ }
+.main_shop{
+  width: 100%;
+  background: url(./img/bg_pg1.avif);
+  background-attachment: fixed;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+
+.shop_text{
+  height: 450px;
+  display: flex;
+  align-items: center;
+  width: 500px;
+  margin: 0 auto;
+  justify-content: center;
+  color: black;
+}
+.shop_text h1{
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 1px;
+}
+.shop_btn{
+  width: 100px;
+  margin-top: 35px;
+  margin-left: 110px;
+}
+.partner{
+  width: 100%;
+  margin-top: 0%;
+}
+.partner h1{
+  text-align: center;
+  text-decoration: none;
+  font-size: 70px;
+  margin-bottom: 30px;
+  margin-top: 0%;
+}
+.footer{
+  width: 100%;
+  height: 700px;
+}
+.about_img h1{
+  font-size: 31px;
+  margin-top: 35px;
+  margin-bottom: 55px;   
+   text-transform: uppercase;
+  color: #252525;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  font-weight: 400;
+  font-family: "Rokkitt", Georgia, serif;
+}
+.e16 p{
+  font-size: 20px;
+  padding-right: 40px;
+  margin-top: 50px;
+}
+.e16 a{
+  transition: all 0.5s ease;
+  padding: 0;
+  margin: 0 0 10px 0;
+  list-style: none;
+  text-decoration: none;
+  display: block;
+  color: black;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 500;
+}
+.Thanks{
+  width: 100%;
+  margin-top: 150px;
+
+}
+.Thanks h1 {
+  text-align: center;
+  box-sizing: border-box;
+  font-family: "Rokkitt", Georgia, serif;
+}
+  
